@@ -103,3 +103,6 @@ function hasClassName(inElement, inClassName)
       else
         stage.style.webkitTransform = '';
     }
+  $('.anni.6months').click(function(event) {
+  	$('.audio').remove();
+  });
