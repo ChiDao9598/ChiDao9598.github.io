@@ -1,0 +1,26 @@
+@media only screen and (max-width: 786px) {
+    h1 {
+        font-size: 28px!important;
+    }
+    .container {
+        margin-top: 150px;
+    }
+    .main {
+        width: auto;
+        padding: 20px;
+    }
+    .row.title {
+        padding-bottom: 15px;
+    }
+    .cirle {
+        width: 100px;
+        height: 100px;
+    }
+    .icon i {
+        color: #ee2525f5;
+        font-size: 35px;
+    }
+    .wrapperLoadingContent {
+        gap: 5px;
+    }
+}

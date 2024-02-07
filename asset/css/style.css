@@ -39,13 +39,18 @@ body :-ms-input-placeholder {
     /* margin-top: -400px; */
     overflow: hidden;
 }
-.main{
+.main {
     margin: auto;
     width: 724px;
     height: auto;
     background: rgba(243, 243, 243, 0.75);
     border-radius: 25px;
     padding: 50px;
+}
+.row.title {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
 }
 .container {
     height: 100%;
@@ -54,6 +59,9 @@ body :-ms-input-placeholder {
 img {
     width: 100%;
 }
+.ava {
+    padding: 0!important;
+}
 .cirle {
     width: 200px;
     height: 200px;
@@ -61,6 +69,14 @@ img {
     margin: auto;
     overflow: hidden;
     border-radius: 50%;
+}
+.icon i {
+    color: #ee2525f5;
+    font-size: 50px;
+}
+.wrapperLoadingContent {
+    display: grid;
+    gap: 20px;
 }
 .showContent {
     color: #ee2525f5;
