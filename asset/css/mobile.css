@@ -23,4 +23,7 @@
     .wrapperLoadingContent {
         gap: 5px;
     }
+    .heart {
+        margin: 10px 0;
+    }
 }

@@ -7,6 +7,7 @@
 body {
     /*font-family: 'Source Sans Pro', sans-serif;*/
     font-weight: 900;
+    font-family: 'Swanky and Moo Moo', cursive!important;
 }
 body ::-webkit-input-placeholder {
     /* WebKit browsers */
@@ -70,10 +71,6 @@ img {
     overflow: hidden;
     border-radius: 50%;
 }
-.icon i {
-    color: #ee2525f5;
-    font-size: 50px;
-}
 .wrapperLoadingContent {
     display: grid;
     gap: 20px;
@@ -88,4 +85,64 @@ img {
 .showContent:hover {
     cursor: pointer;
     color: #ee2525bd;
+}
+.heart {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #e53038;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.2);
+    animation: beat 1.5s ease 0s infinite;
+}
+.heart span {
+    font-size: 22pt;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+.heart:before, .heart:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #e53038;
+    opacity: 0.4;
+    border-radius: inherit;
+}
+.heart:before {
+    z-index: -2;
+    animation: beat-before 1.5s ease 100ms infinite;
+}
+.heart:after {
+    z-index: -1;
+    animation: beat-after 1.5s ease 200ms infinite;
+}
+@keyframes beat {
+    0% {
+        transform: scale(1);
+   }
+    50% {
+        transform: scale(1.1);
+   }
+}
+@keyframes beat-before {
+    0% {
+        transform: scale(1);
+   }
+    50% {
+        transform: scale(1.15);
+   }
+}
+@keyframes beat-after {
+    0% {
+        transform: scale(1);
+   }
+    50% {
+        transform: scale(1.3);
+   }
 }
