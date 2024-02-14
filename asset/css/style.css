@@ -5,9 +5,9 @@
     font-weight: 900;
 }
 body {
-    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Source Sans Pro, sans-serif'!important;
+    font-size: 16px!important;
     font-weight: 900;
-    font-family: 'Swanky and Moo Moo', cursive!important;
 }
 body ::-webkit-input-placeholder {
     /* WebKit browsers */
@@ -73,7 +73,7 @@ img {
 }
 .wrapperLoadingContent {
     display: grid;
-    gap: 20px;
+    gap: 10px;
 }
 .showContent {
     color: #ee2525f5;
