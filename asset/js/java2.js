@@ -12,7 +12,7 @@ $(document).ready(function() {
 		$(heart).addClass('snow-item fa fa-heart').css({
 			'position' : 'absolute',
 			'z-index' :'auto',
-			'color' : '#ff0000',
+			'color' : 'black',
 			'display' : 'block',
 			'top' : 0,
 			'left' : startLeft,
